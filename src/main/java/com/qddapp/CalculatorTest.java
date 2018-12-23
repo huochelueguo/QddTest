@@ -30,7 +30,7 @@ public class CalculatorTest {
         Thread.sleep(2000);
 
         String result = driver.findElement(By.id("com.android.calculator2:id/digit9")).getText();
-        System.out.println(result);
+
 
         driver.quit();
     }
